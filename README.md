@@ -1,0 +1,2 @@
+# Eos.local
+Eos-template
