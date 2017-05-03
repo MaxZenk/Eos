@@ -2,16 +2,13 @@
 	margin: 0;
 	padding: 0;
 }
-html {
-	font-family: 'Montserrat', sans-serif;
-}
+html {font-family: 'Montserrat', sans-serif;}
+body {font-weight: 700;}
 a {
 	text-decoration: none;
 	color: #fff;
 }
-li {
-	list-style: none;
-}
+li {list-style: none;}
 .content {
 	max-width: 1470px;
 	padding: 0 15px;
@@ -20,25 +17,38 @@ li {
 .header {
 	background: url("../images/Photo.png") center center;
 	background-size: cover;
-	height: 1200px;
 	padding-top: 125px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 100px;
 }
 .header-logo {
-	padding-right: 770px;
+	margin-right: 770px;
 	display: inline-block;
 	vertical-align: middle;
 }
-.header-text {
-	padding: 320px 0 330px;
-}
+.header-text {padding: 290px 0 330px;}
 .main-menu {
 	font-size: 24px;
 	display: inline-block;
 }
-.main-menu a {
-	padding-left: 62px;
-}
-.mouse {
+.main-menu a {padding-left: 62px;}
+.main-menu a:hover {color: #18f7ef;}
+.mouse {font-weight: 400;}
+.footer {
+	background: url("../images/wood.png") center center;
+	background-size: cover;
 	color: #fff;
+	padding: 185px 0 225px;
+}
+.footer .rights {
+	font-size: 18px;
+	line-height: 48px;
+	margin-bottom: 185px;
+}
+.footer .f-bot {
 	text-align: center;
+}
+.footer .f-bot .header-logo {
+	margin: 545px 0 75px;
 }
