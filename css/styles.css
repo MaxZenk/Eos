@@ -41,6 +41,19 @@ li {list-style: none;}
 	color: #fff;
 	padding: 185px 0 225px;
 }
+.f-text01 {
+	line-height: 103px;
+	font-size: 60px;
+	margin-right: 30px;
+	width: 49%;
+	display: inline-block;
+}
+.f-text02 {
+	line-height: 48px;
+	font-size: 18px;
+	width: 48.6%;
+	display: inline-block;
+}
 .footer .rights {
 	font-size: 18px;
 	line-height: 48px;
