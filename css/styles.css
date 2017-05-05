@@ -41,6 +41,36 @@ li {list-style: none;}
 	color: #fff;
 	padding: 185px 0 225px;
 }
+.aside-1 {
+	background-color: #18f7ef;
+	width: 23.15%;
+	color: #3624ea;
+	padding: 105px 125px 185px 105px;
+	display: inline-block;
+}
+.aside-1 .hello {
+	font-size: 125px;
+	line-height: 120px;
+}
+.aside-1 .hello span {
+	color: #fff;
+}
+.aside-1 .about-hello {
+	font-size: 24px;
+	line-height: 48px;
+	margin: 70px 0 80px;
+}
+.aside-1 .contact-w {
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 80px;
+	border: solid 5px #fff;
+	height: 80px;
+	width: 315px;
+	color: #3624ea;
+	display: block;
+}
+
 .f-text01 {
 	line-height: 103px;
 	font-size: 60px;
