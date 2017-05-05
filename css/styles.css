@@ -41,20 +41,18 @@ li {list-style: none;}
 	color: #fff;
 	padding: 185px 0 225px;
 }
+
 .aside-1 {
 	background-color: #18f7ef;
 	width: 23.15%;
 	color: #3624ea;
-	padding: 105px 125px 185px 105px;
-	display: inline-block;
+	padding: 105px 125px 189px 105px;
 }
 .aside-1 .hello {
 	font-size: 125px;
 	line-height: 120px;
 }
-.aside-1 .hello span {
-	color: #fff;
-}
+.aside-1 .hello span {color: #fff;}
 .aside-1 .about-hello {
 	font-size: 24px;
 	line-height: 48px;
@@ -70,7 +68,19 @@ li {list-style: none;}
 	color: #3624ea;
 	display: block;
 }
-
+.sea-orange,
+.skyscrapers,
+.sea-blue {
+	height: 615px;
+	background-size: cover;
+	width: 32.38%;
+}
+.sea-orange {background: url("../images/sea-orange.png") center center;}
+.skyscrapers {background: url("../images/skyscrapers.png") center center;}
+.sea-blue {
+	background: url("../images/sea-blue.png") center center;
+	width:  64.76%;
+}
 .f-text01 {
 	line-height: 103px;
 	font-size: 60px;
@@ -89,9 +99,5 @@ li {list-style: none;}
 	line-height: 48px;
 	margin-bottom: 185px;
 }
-.footer .f-bot {
-	text-align: center;
-}
-.footer .f-bot .header-logo {
-	margin: 545px 0 75px;
-}
+.footer .f-bot {text-align: center;}
+.footer .f-bot .header-logo {margin: 545px 0 75px;}
