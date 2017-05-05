@@ -42,45 +42,98 @@ li {list-style: none;}
 	padding: 185px 0 225px;
 }
 
-.aside-1 {
-	background-color: #18f7ef;
-	width: 23.15%;
-	color: #3624ea;
-	padding: 105px 125px 189px 105px;
+.row {
+	width: 100%;
+	display: -ms-grid;
+	display: grid;
+	-ms-grid-columns: (33%)[2];
+	grid-template-columns: repeat(2, 33%);
+	-ms-grid-rows: (auto)[2];
+	grid-template-rows: repeat(2, auto);
+	grid-template-areas: "header image-1 image-2" "header image-3 image-3" "image-4 footer footer";
 }
-.aside-1 .hello {
-	font-size: 125px;
-	line-height: 120px;
-}
-.aside-1 .hello span {color: #fff;}
-.aside-1 .about-hello {
-	font-size: 24px;
-	line-height: 48px;
-	margin: 70px 0 80px;
-}
-.aside-1 .contact-w {
+.row .button {
+	width: 316px;
+	height: 77px;
+	border: 5px solid #fff;
+	background-color: transparent;
 	text-transform: uppercase;
-	text-align: center;
-	line-height: 80px;
-	border: solid 5px #fff;
-	height: 80px;
-	width: 315px;
-	color: #3624ea;
 	display: block;
+	font: 24px/77px 'Montserrat', sans-serif;
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto 20%;
 }
-.sea-orange,
-.skyscrapers,
-.sea-blue {
-	height: 615px;
+.row .block1, .row .block_2, .row .block_3, .row .block_4, .row .block_5, .row .block_6 {
 	background-size: cover;
-	width: 32.38%;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
-.sea-orange {background: url("../images/sea-orange.png") center center;}
-.skyscrapers {background: url("../images/skyscrapers.png") center center;}
-.sea-blue {
-	background: url("../images/sea-blue.png") center center;
-	width:  64.76%;
+.row .block_1 {
+	background-color: #18f7ef;
+	grid-area: header;
 }
+.row .block_1 .text {
+	margin: 20%;
+}
+.row .block_1 h1 {
+	color: white;
+	font: 700 124px/120px 'Montserrat', sans-serif;
+}
+.row .block_1 h1 span {
+	color: #3624ea;
+}
+.row .block_1 p {
+	color: #3624ea;
+	font: 24px/48px 'Montserrat', sans-serif;
+}
+.row .block_1 .button {
+	color: #3624ea;
+}
+.row .block_2 {
+	background-image: url("../images/Photo-0.png");
+	grid-area: image-1;
+}
+.row .block_3 {
+	background-image: url("../images/Photo-2.png");
+	grid-area: image-2;
+}
+.row .block_4 {
+	background-image: url("../images/Photo-1.png");
+	grid-area: image-3;
+}
+.row .block_5 {
+	grid-area: image-4;
+	position: relative;
+}
+.row .block_5 img {
+	position: absolute;
+	width: 600px;
+	height: auto;
+	bottom: 0;
+	right: -106px;
+}
+.row .block_6 {
+	background-color: #3624ec;
+	grid-area: footer;
+	color: white;
+}
+.row .block_6 .text {
+	margin: 10% 0% 7% 30%;
+}
+.row .block_6 h1 {
+	font: 700 51px/102px 'Montserrat', sans-serif;
+}
+.row .block_6 p {
+	font: 24px/48px 'Montserrat', sans-serif;
+}
+.row .block_6 .button {
+	color: white;
+	margin-bottom: 10%;
+	margin-left: 30%;
+}
+
+
 .f-text01 {
 	line-height: 103px;
 	font-size: 60px;
