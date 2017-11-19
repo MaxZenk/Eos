@@ -8,6 +8,8 @@ Eos
 
 HTML template
 
+>This is not a serious project
+
 License
 -------
 
